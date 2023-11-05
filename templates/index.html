@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>moodnyaAku</title>
+  <meta name="title" content="Recommendation Musics By AI">
+  <meta name="description" content="This is a Recommendation Musics By AI">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./static/assets/css/style.css">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <img src="./static/assets/images/favicon.svg" width="40" height="40" alt="Powered Mood-based Stories"
+          class="favicon">
+        <img src="./static/assets/images/logo.svg" width="126" height="28" alt="Powered Mood-based Stories"
+          class="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link label-lg link:hover">Home</a>
+          </li>
+
+          <li>
+            <a href="#populer" class="navbar-link label-lg link:hover">Populer</a>
+          </li>
+
+          <li>
+            <a href="#rekomendasi" class="navbar-link label-lg link:hover">Cerita</a>
+          </li>
+
+          <li>
+            <a href="#mood" class="navbar-link label-lg link:hover">Mood</a>
+          </li>
+
+          <li>
+            <a href="#profil" class="navbar-link label-lg link:hover">Profile</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link label-lg link:hover">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+
+        <button class="btn-icon primary" aria-label="search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn-icon profil-btn" aria-label="PodSeis account: User">
+          <img src="./static/assets/images/profile.png" width="50" height="50" alt="User" class="img-cover">
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="menu toggle" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true" class="default-icon"></ion-icon>
+
+          <ion-icon name="close-outline" aria-hidden="true" class="active-icon"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HOME
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <h1 class="headline-lg hero-title">
+            Let's Find Your <span class="span">Music Recommendation</span>
+          </h1>
+
+          <p class="section-text body-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, autem, non maxime velit sed delectus
+            doloribus, est nemo saepe soluta error odio officiis ullam. Expedita molestias perferendis pariatur harum
+            quam.
+          </p>
+
+          <a href="#" class="btn">Sharing Your Feeling now</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOP SONGS
+      -->
+
+      <section class="section top-collection" aria-labelledby="collection-label" id="populer">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="headline-md section-title text-center" id="collection-label">Top Songs</h2>
+
+            <a href="#" class="btn-link link:hover">
+              <span class="span">See More</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container" data-slider-container>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-1.jpeg" width="500" height="500" loading="lazy"
+                      alt="Tiara Andini" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-1.jpeg" width="64" height="64" loading="lazy"
+                        alt="Tiara Andini profile">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Tiara Andini</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Janji Setia</a>
+                    </p>
+
+                    <p class="card-text">2021</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source
+                        src="./static/path/Audio/Tiara%20Andini%20-%20Janji%20Setia%20(Official%20Music%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-2.jpg" width="500" height="500" loading="lazy"
+                      alt="GIF Collection" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-2.jpeg" width="64" height="64" loading="lazy"
+                        alt="Tiara Andini">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Ziva Magnolya</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Cukup</a>
+                    </p>
+
+                    <p class="card-text">2023</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source src="./static/path/Audio/Ziva%20Magnolya%20-%20Cukup%20(Official%20Music%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-3.jpg" width="500" height="500" loading="lazy"
+                      alt="Ziva Magnolya" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-3.jpeg" width="64" height="64" loading="lazy"
+                        alt="Ziva Magnolya">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Keisya Levronka</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Tak Ingin Usai</a>
+                    </p>
+
+                    <p class="card-text">2023</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source
+                        src="./static/path/Audio/Keisya%20Levronka%20-%20Tak%20Ingin%20Usai%20(Official%20Lyric%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-4.jpg" width="500" height="500" loading="lazy"
+                      alt="Keisya Levronka" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-4.jpeg" width="64" height="64" loading="lazy"
+                        alt="Keisya Levronka">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Arsy Widianto & Brisia Jodie</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Dengan Caraku</a>
+                    </p>
+
+                    <p class="card-text">2021</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source
+                        src="./static/path/Audio/Arsy%20Widianto,%20Brisia%20Jodie%20-%20Dengan%20Caraku%20(Official%20Music%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-5.jpg" width="500" height="500" loading="lazy"
+                      alt="Arsy Widianto" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-5.jpeg" width="64" height="64" loading="lazy"
+                        alt="Angel profile">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Hindia</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Secukupnya</a>
+                    </p>
+
+                    <p class="card-text">2019</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source
+                        src="./static/path/Audio/Hindia%20-%20Secukupnya%20(Official%20Lyric%20&%20Commentary%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/showcase-6.jpeg" width="500" height="500" loading="lazy"
+                      alt="Hindia" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-6.jpeg" width="64" height="64" loading="lazy"
+                        alt="Hindia">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Stephanie Poetri</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">I love 3000</a>
+                    </p>
+
+                    <p class="card-text">2019</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source
+                        src="./static/path/Audio/Stephanie%20Poetri%20-%20I%20Love%20You%203000%20(Official%20Music%20Video).mp3"
+                        type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/rumahkerumah.jpeg" width="500" height="500" loading="lazy"
+                      alt="Hindia" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/avatar-5.jpeg" width="64" height="64" loading="lazy"
+                        alt="Hindia">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="#" class="link:hover">Hindia</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="#" class="link">Rumah ke rumah</a>
+                    </p>
+
+                    <p class="card-text">2020</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source src="./static/path/Audio/Rumah%20Ke%20Rumah.mp3" type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div class="collection-card card">
+
+                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
+                    <img src="./static/assets/images/LaguNemen.webp" width="500" height="500" loading="lazy"
+                      alt="Hindia" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-profile">
+                      <img src="./static/assets/images/NDX.jpeg" width="64" height="64" loading="lazy" alt="Hindia">
+
+                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="title-md card-title">
+                      <a href="https://open.spotify.com/artist/1IDBhlpDyKr53UKKxXRHXD" target="_blank"
+                        class="link:hover">NDX AKA</a>
+                    </h3>
+
+                    <p class="label-md card-author">
+                      <a href="https://open.spotify.com/track/6UoW3rtYmYB6DE5xzNors8" target="_blank" class="link">Nemen
+                        HipHop Dangdut Version</a>
+                    </p>
+
+                    <p class="card-text">2023</p>
+                    <!-- elemen audio -->
+                    <audio controls>
+                      <source src="./static/path/Audio/Nemen.mp3" type="audio/mpeg">
+                      Maaf, browser Anda tidak mendukung pemutaran audio.
+                    </audio>
+
+                  </div>
+
+                </div>
+              </li>
+
+
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="Slide to previous item" data-slider-prev>
+              <ion-icon name="chevron-back-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="Slide to next item" data-slider-next>
+              <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+          </div>
+
+          <a href="#" class="btn-link link:hover">
+            <span class="span">See More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- 
+        - Rekomendasi Lagu berdasarkan Cerita
+      -->
+
+      <body>
+        <h1 class="hero-title" id="rekomendasi">Let's Find Your <span class="span">moodnyaAku</span></h1>
+
+        <form method="post" action="/" class="form">
+          <label for="cerita" class="label">Ceritakan sesuatu:</label>
+          <input type="text" name="cerita" id="cerita" required class="input">
+          <button type="submit" class="button">Rekomendasikan Lagu</button>
+        </form>
+
+
+        {% if rekomendasi %}
+        <h2 class="rekomendasi-list">Lagu-lagu rekomendasi:</h2>
+        <ul class="rekomendasi-list">
+          {% for lagu in rekomendasi %}
+          <li>{{ lagu[0] }} oleh {{ lagu[1] }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+      </body>
+
+
+
+      <!-- 
+        - #Recommendations Other Songs
+      -->
+
+      <section class="section discover" aria-labelledby="discover-label" id="mood">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center" id="discover-label">Silahkan pilih lagu yang cocok dengan mood Anda.</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/bertaut.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/nadinamizah.jpeg" width="32" height="32" loading="lazy" alt="?"
+                    class="img">
+
+                  <a href="#" class="link:hover">Nadin Amizah</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Bertaut</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/Bertaut.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/yangterbaikbagimu.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                  <div>
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    
+                    <span class="span">?</span>
+                  </div>
+                </div>
+                <div class="card-profile">
+                  <img src="./static/assets/images/donisibarani.jpeg" width="32" height="32" loading="lazy" alt="?"
+                    class="img">
+                  <a href="#" class="link:hover">Ada Band</a>
+                </div>
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Yang Terbaik Bagimu</a>
+                </h3>
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/YangTerbaikBagimu.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/deargood.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="?" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/a7x.png" width="32" height="32" loading="lazy" alt="?"
+                    class="img">
+
+                  <a href="#" class="link:hover">Avenged Sevenfold</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Dear Good</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/DearGod.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/TaragakPulang.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/dirasati.jpg" width="32" height="32" loading="lazy" alt="?"
+                    class="img">
+
+                  <a href="#" class="link:hover">Dira Sati</a>
+                </div>
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Taragak Pulang</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/TaragakPulang.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+                  <div>
+
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/romusha.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/indo.jpeg" width="32" height="32" loading="lazy" alt="?"
+                    class="img">
+
+                  <a href="#" class="link:hover">Indonesia Tempo Dulu</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Mars Romusha (Barisan Pekerja) tahun 1943</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/MarsRomusha.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/JIWAYANGBERSEDIH.gif" width="500" height="500" loading="lazy" alt="?"
+                    class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/ghea.jpeg" width="32" height="32" loading="lazy"
+                    alt="Angel profile" class="img">
+
+                  <a href="#" class="link:hover">Ghea Indrawari</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Jiwa Yang Bersedih</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/JIWAYANGBERSEDIH.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+
+                  <div>
+
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/L.gif" width="500" height="500" loading="lazy"
+                    alt="Looki #0147" class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+
+                  <div>
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">?</span>
+                  </div>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/hal.webp" width="32" height="32" loading="lazy"
+                    alt="CrazyAnyone profile" class="img">
+
+                  <a href="#" class="link:hover">Hal</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">L</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/L.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="discover-card card">
+
+                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
+                  <img src="./static/assets/images/ManisnyaNegeriku.gif" width="500" height="500" loading="lazy"
+                    alt="Poob #285" class="img-cover">
+
+                  <button class="btn btn-primary">
+                    <ion-icon name="flash" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Sini Dengerin</span>
+                  </button>
+                </div>
+
+                <div class="card-profile">
+                  <img src="./static/assets/images/pujiono.jpeg" width="32" height="32" loading="lazy"
+                    alt="Princess profile" class="img">
+
+                  <a href="#" class="link:hover">Pujiono</a>
+                </div>
+
+                <h3 class="title-sm card-title">
+                  <a href="#" class="link:hover">Manisnya Negeriku</a>
+                </h3>
+
+                <div class="card-meta">
+                  <!-- elemen audio -->
+                  <audio controls>
+                    <source src="./static/path/Audio/Manisnya%20Negeriku.mp3" type="audio/mpeg">
+                    Maaf, browser Anda tidak mendukung pemutaran audio.
+                  </audio>
+
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="card-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn-link link:hover">
+            <span class="span">Explore More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - Akun Instagram
+      -->
+
+      <section class="section sellers" aria-labelledby="sellers-label" id="Artis">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center" id="sellers-label">Yuk, kepoin akun Instagram artis
+            favoritmu!</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-5.jpeg" width="64" height="64" loading="lazy"
+                    alt="Steven Townsend profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="https://www.instagram.com/teamhindia/" target="_blank" class="link:hover">Hindia</a>
+                  </h3>
+
+                  <p class="user-name label-md" class="link:hover">@teamhindia</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Steven Townsend">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-2.jpeg" width="64" height="64" loading="lazy"
+                    alt="Tiffany Betancourt profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Tiffany Betancourt</a>
+                  </h3>
+
+                  <p class="user-name label-md">@CutieGirl</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Tiffany Betancourt">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-3.jpeg" width="64" height="64" loading="lazy"
+                    alt="Jacqueline Burns profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Jacqueline Burns</a>
+                  </h3>
+
+                  <p class="user-name label-md">@ButterFly</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Jacqueline Burns">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-4.jpeg" width="64" height="64" loading="lazy"
+                    alt="Mari Harrington profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Mari Harrington</a>
+                  </h3>
+
+                  <p class="user-name label-md">@NorseQueen</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Mari Harrington">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-5.jpeg" width="64" height="64" loading="lazy"
+                    alt="Floyd Glasgow profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Floyd Glasgow</a>
+                  </h3>
+
+                  <p class="user-name label-md">@BigBull</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Floyd Glasgow">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-6.jpeg" width="64" height="64" loading="lazy"
+                    alt="Donna Schultz profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Donna Schultz</a>
+                  </h3>
+
+                  <p class="user-name label-md">@Angel</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Donna Schultz">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-7.jpg" width="64" height="64" loading="lazy"
+                    alt="Joshua Morris profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Joshua Morris</a>
+                  </h3>
+
+                  <p class="user-name label-md">@CrazyAnyone</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Joshua Morris">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-8.jpg" width="64" height="64" loading="lazy"
+                    alt="Rosaria Vargas profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Rosaria Vargas</a>
+                  </h3>
+
+                  <p class="user-name label-md">@Princess</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Rosaria Vargas">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="seller-card card">
+
+                <figure class="card-banner">
+                  <img src="./static/assets/images/avatar-2.jpeg" width="64" height="64" loading="lazy"
+                    alt="Carl Williams profile">
+
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                </figure>
+
+                <div class="card-title-wrapper">
+                  <h3 class="title-sm">
+                    <a href="#" class="link:hover">Carl Williams</a>
+                  </h3>
+
+                  <p class="user-name label-md">@LooserBad</p>
+                </div>
+
+                <button class="btn-icon outline" aria-label="Hire Carl Williams">
+                  <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #QNA
+      -->
+
+      <section class="section qna" aria-label="question and answer">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center">Pertanyaan Terkait Masalah Teknis yang sering pengguna tanyakan</h2>
+
+          <p class="section-text body-md text-center">
+            Berikut beberapa pertanyaan terkait masalah teknis yang sering diajukan oleh pengguna:
+          </p>
+
+          <ul class="qna-list">
+
+            <li class="qna-item">
+              <div class="qna-card" data-accordion>
+
+                <button class="qna-btn" data-accordion-btn>
+                  <h3 class="title-sm">Pengguna akan memiliki lebih banyak kebebasan dalam bercerita tanpa pembatasan genre tertentu. Apa manfaat utama dari pendekatan ini dalam rekomendasi musik berdasarkan cerita?</h3>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="qna-content">
+                  <p class="body-md">
+                    Tentu, pengguna akan memiliki kebebasan yang lebih besar dalam bercerita tanpa harus terbatas oleh genre tertentu. Dengan demikian, rekomendasi musik akan lebih menitikberatkan pada alur cerita yang dibuat pengguna daripada mengikuti suatu genre tertentu. Pengguna dapat merasakan musik yang paling sesuai dengan alur cerita yang mereka buat, menciptakan pengalaman mendengarkan yang lebih sesuai dengan cerita yang mereka pilih.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="qna-item">
+              <div class="qna-card" data-accordion>
+
+                <button class="qna-btn" data-accordion-btn>
+                  <h3 class="title-sm">Bisakah saya memasukkan cerita atau tema khusus untuk mendapatkan rekomendasi musik?</h3>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="qna-content">
+                  <p class="body-md">
+                    Tentu, Anda dapat menuangkan cerita atau tema khusus saat menggunakan rekomendasi musik berdasarkan cerita. 
+                    Dengan demikian, rekomendasi musik akan lebih sesuai dengan cerita atau tema yang Anda ceritakan, 
+                    menciptakan pengalaman mendengarkan yang lebih mendalam dan kohesif.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="qna-item">
+              <div class="qna-card" data-accordion>
+
+                <button class="qna-btn" data-accordion-btn>
+                  <h3 class="title-sm">Dapatkah saya mendengarkan atau melihat cuplikan musik dan video sebelum memutuskan untuk mendengarkannya?</h3>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="qna-content">
+                  <p class="body-md">
+                    Tentu, di website rekomendasi musik ini, Anda dapat mendengarkan cuplikan musik dan video sebelum memutuskan untuk mendengarkan secara penuh. 
+                    Ini memungkinkan Anda untuk mencicipi musik dan video terlebih dahulu sehingga Anda dapat membuat keputusan yang lebih informasi sebelum 
+                    memutuskan untuk mendengarkan secara lengkap.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="qna-item">
+              <div class="qna-card" data-accordion>
+
+                <button class="qna-btn" data-accordion-btn>
+                  <h3 class="title-sm">Bagaimana cara menangani masalah jika rekomendasi musik tidak sesuai dengan cerita saya?</h3>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="qna-content">
+                  <p class="body-md">
+                    Kami akan terus memperbarui musik sesuai dengan cerita Anda, 
+                    sehingga Anda dapat memiliki pengalaman mendengarkan yang lebih sesuai dengan alur cerita yang Anda buat.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #QUESTION
+      -->
+
+      <section class="section contact" aria-label="contact" id="contact">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center">Ada Pertanyaan Lain?</h2>
+
+          <p class="body-md section-text text-center">
+            Silakan ajukan pertanyaan Anda, mohon klik tombol dibawah ini.
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <span class="span">Contact us</span>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div>
+              <h3 class="headline-md text-center">Follow Us to Newsletter!</h3>
+
+              <p class="body-md card-text text-center">
+                Follow to get latest updates and information.
+              </p>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Enter your email :" required class="input-field">
+
+              <button class="btn btn-primary">Follow</button>
+            </div>
+
+            <ion-icon name="mail-open-outline" aria-hidden="true" class="bg-icon bg-icon-1"></ion-icon>
+
+            <ion-icon name="document-text-outline" aria-hidden="true" class="bg-icon bg-icon-2"></ion-icon>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #Profil
+  -->
+  <div class="container" id="profil">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-8 col-lg-6">
+        <!-- Section Heading-->
+        <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s"
+          style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+          <h3>Team <span> Exploration 1</span></h3>
+          <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+          style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/ricky.png" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Ricky Bagestra</h6>
+            <p class="designation">Machine Learning Engineer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s"
+          style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/rehanzubaidari.png" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Rehan Zubaidari</h6>
+            <p class="designation">Front-End Engineer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s"
+          style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/nia.png" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Nia Syifa Andhina</h6>
+            <p class="designation">Technical Writer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s"
+          style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/Nasrani Petra Nainggolan.png" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Nasrani Petra Nainggolan</h6>
+            <p class="designation">Data Engineer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s"
+          style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/r.jpg" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Heni Sriwulandari</h6>
+            <p class="designation">Backend Engineer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Single Advisor-->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s"
+          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+          <!-- Team Thumb-->
+          <div class="advisor_thumb"><img src="./static/assets/images/Rizki Aulia.png" alt="">
+            <!-- Social Info-->
+            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                  class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <!-- Team Details-->
+          <div class="single_advisor_details_info">
+            <h6>Rizky Aulia</h6>
+            <p class="designation">UI/UX Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#">
+            <img src="./static/assets/images/?" width="126" height="28" loading="lazy" alt="PodSeis">
+          </a>
+
+          <p class="body-md footer-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, repudiandae!
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="title-lg footer-list-title">Powered Mood Based Stories</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Explore Songs</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">?</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">?</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">?</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Creators</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="title-lg footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Blog & News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Terms & Condition</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Privacy policy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Login</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <ul>
+
+            <li>
+              <p class="title-lg footer-list-title">Download PodSeis App</p>
+            </li>
+
+            <li class="footer-list-item">
+              <a href="#">
+                <img src="./static/assets/images/appstore.png" width="134" height="40" loading="lazy"
+                  alt="Download Metalink app from AppStore">
+              </a>
+
+              <a href="#">
+                <img src="./static/assets/images/playstore.png" width="134" height="40" loading="lazy"
+                  alt="Download Metalink app from PlayStore">
+              </a>
+            </li>
+
+          </ul>
+
+          <ul>
+
+            <li>
+              <p class="title-lg footer-list-title">Contact Details</p>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:metalink@nft.com" class="footer-link">podseis.com</a>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+111 234-567-891" class="footer-link">+62853******</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="body-md text-center copyright">
+          &copy; 2023 PodSeis. Developed with <span class="span">❤</span> by Group 1 of Exploration.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top btn-icon" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <div class="body-bg-shape"></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./static/assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
