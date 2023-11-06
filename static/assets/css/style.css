@@ -1203,50 +1203,60 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
 
 /* Gaya judul halaman utama */
 .hero-title {
-  font-size: 4rem;
-  color: #333;
-  /* Ubah sesuai keinginan Anda */
+  font-size: 2rem;
+  color:#fff;
   text-align: center;
-  /* Untuk membuat teks berada di tengah horizontal */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
-  /* Mengisi tinggi sesuai tinggi layar (viewport) */
+  height: 10vh;
 }
-
 
 /* Gaya seluruh formulir */
 .form {
   width: 80%;
-  /* Ubah lebar sesuai keinginan Anda */
   margin: 0 auto;
-  /* Untuk membuat formulir berada di tengah halaman */
+  text-align: center; /* Untuk mengatur teks di tengah formulir */
 }
 
 /* Gaya label formulir */
 .label {
-  font-size: 3rem;
-  color: var(--color, var(--blue-violet));
-  /* Ubah sesuai keinginan Anda */
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px; /* Memberi jarak bawah antara label dan textarea */
+  display: block;
 }
 
 /* Gaya elemen input dalam formulir */
-.input {
+.form-control {
   border: none;
-  /* Menghilangkan border */
-  border-bottom: 1px solid #cccccc;
-  /* Menambahkan garis bawah */
+  border-bottom: 1px solid #ccc;
   padding: 10px;
   font-size: 2rem;
-  background-color: #cccccc;
-  /* Latar belakang transparan */
-  display: block;
+  background-color: #f0f0f0;
   width: 100%;
-  margin: 0;
-  /* Menghilangkan margin */
-  border-radius: var(--radius-12);
+  font-family: var(--ff-urbanist);
+  border-radius: 2; /* Menghapus sudut bulat pada textarea */
+  height: 200px; /* Atur tinggi sesuai keinginan Anda */
+  
 }
+
+/* Gaya tombol submit */
+.button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px; /* Memberi jarak atas antara textarea dan tombol */
+}
+
+.button:hover {
+  background-color: #555; /* Efek hover */
+}
+
 
 
 /*-----------------------------------*\
@@ -1287,7 +1297,7 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
 
 .centered-content .kembali-button {
   display: block;
-  background-color: #0099cc;
+  background-color: var(--blue-violet);
   color: #fff;
   padding: 10px 20px;
   text-align: center;
@@ -1303,7 +1313,7 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
 }
 
 .button {
-  background-color: #3498db;
+  background-color: var(--blue-violet);
   /* Ganti dengan warna latar belakang yang Anda inginkan */
   color: #ffffff;
   /* Warna teks pada tombol */
