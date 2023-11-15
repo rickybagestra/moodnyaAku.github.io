@@ -1262,6 +1262,7 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
 /*-----------------------------------*\
   #Hasil Rekomendasi
 \*-----------------------------------*/
+/* Gaya untuk .centered-content, termasuk kotak (container) */
 .centered-content {
   display: flex;
   flex-direction: column;
@@ -1269,11 +1270,15 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
   justify-content: center;
   height: 100vh;
   /* Mengisi tinggi viewport */
+  padding: 20px; /* Ruang antara konten dan kotak */
+  border-radius: 10px; /* Bentuk kotak dengan sudut yang lebih lembut */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan kotak */
 }
 
 /* Gaya untuk elemen-elemen di dalam .centered-content */
 .centered-content h1 {
   font-size: 2.5rem;
+  margin-bottom: 20px; /* Jarak antara judul dan cerita pengguna */
 }
 
 .centered-content p {
@@ -1281,49 +1286,82 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
   margin: 10px 0;
 }
 
-.centered-content ul {
-  list-style-type: disc;
+.cerita-pengguna {
+  background-color: #f5f5f5;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 300px; /* Sesuaikan lebar sesuai kebutuhan Anda */
+  margin: 20px; /* Sesuaikan margin sesuai kebutuhan Anda */
+  border-radius: 10px; /* Untuk memberikan sudut kotak */
 }
 
-.centered-content li {
-  font-size: 1.4rem;
+.cerita-pengguna p:first-child {
+  font-weight: bold;
+  /* Anda juga bisa menambahkan properti lain seperti warna, ukuran, dsb. */
+}
+
+/* Gaya untuk .rekomendasi-lagu-box */
+.rekomendasi-lagu-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px; /* Jarak antara kotak rekomendasi dan konten sebelumnya */
+}
+
+/* Gaya untuk .rekomendasi-lagu-box > p */
+.rekomendasi-lagu-box p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Gaya untuk .rekomendasi-lagu-box > ul */
+.rekomendasi-lagu-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Gaya untuk .rekomendasi-lagu-box > li */
+.rekomendasi-lagu-box li {
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
-.centered-content .thank-you {
+/* Gaya untuk .rekomendasi-lagu-box > a */
+.rekomendasi-lagu-box a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Gaya untuk .rekomendasi-lagu-box > a:hover */
+.rekomendasi-lagu-box a:hover {
+  text-decoration: underline;
+}
+
+/* Gaya untuk .rekomendasi-lagu-box > .thank-you */
+.rekomendasi-lagu-box .thank-you {
+  font-size: 20px;
+  margin-top: 20px;
   font-weight: bold;
   color: #ff6600;
 }
 
-.centered-content .kembali-button {
-  display: block;
-  background-color: var(--blue-violet);
-  color: #fff;
+.kembali-button {
+  display: inline-block;
   padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 20px auto;
-  width: 200px;
-  border-radius: 5px;
+  background-color: #3498db; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  text-decoration: none; /* Menghapus garis bawah default pada tautan */
+  border-radius: 5px; /* Sudut tombol */
+  transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
 }
 
-.centered-content .kembali-button:hover {
-  background-color: #0077aa;
+.kembali-button:hover {
+  background-color: #2980b9; /* Warna latar belakang saat tombol dihover */
 }
 
-.button {
-  background-color: var(--blue-violet);
-  /* Ganti dengan warna latar belakang yang Anda inginkan */
-  color: #ffffff;
-  /* Warna teks pada tombol */
-  padding: 10px 20px;
-  /* Atur ukuran padding sesuai kebutuhan Anda */
-  border: none;
-  /* Hapus garis batas tombol jika tidak diperlukan */
-  border-radius: 5px;
-  /* Bulatkan sudut tombol jika diinginkan */
-}
+
+
 
 
 
