@@ -26,12 +26,10 @@ def home():
         cerita = request.form['cerita']
         rekomendasi = rekomendasikan_lagu(cerita)
         cerita_pengguna = cerita
-        
 
         return render_template('hasil_rekomendasi.html', cerita_pengguna=cerita_pengguna, rekomendasi=rekomendasi)
 
     return render_template('index.html', cerita_pengguna=cerita_pengguna)
-
 
 # Fungsi untuk merekomendasikan lagu berdasarkan cerita
 def rekomendasikan_lagu(cerita):
@@ -45,8 +43,6 @@ def rekomendasikan_lagu(cerita):
     
     # Kembalikan hasil rekomendasi dalam bentuk daftar
     return tampilan_rekomendasi.values.tolist()
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
